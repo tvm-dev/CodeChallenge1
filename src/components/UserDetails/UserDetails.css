@@ -1,0 +1,12 @@
+.userDetail {
+  color: rgb(255, 255, 255);
+}
+
+.userDetail span {
+  color: yellowgreen;
+  font-size: larger;
+}
+
+.userDetail ul li {
+  list-style-type: square;
+}

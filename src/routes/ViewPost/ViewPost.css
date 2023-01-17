@@ -1,0 +1,32 @@
+.viewPost h1 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+  padding: 5p;
+
+}
+
+.viewPost h1::first-letter {
+  text-transform: uppercase;
+}
+
+.viewPost h3::first-letter {
+  text-transform: uppercase;
+}
+
+.viewPost h3 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+  text-align: justify;
+  text-size-adjust: 0.5rem;
+
+}
+
+.viewPost h5 {
+  margin-bottom: 20px;
+}
+
+.h2Comments {
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}

@@ -1,0 +1,13 @@
+.comments {
+  color: rgb(191, 221, 18);
+  padding: 1rem;
+}
+
+.comments p {
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.comments p::first-letter {
+  text-transform: uppercase;
+}

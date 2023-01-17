@@ -1,0 +1,18 @@
+.allUsers {
+  text-align: center;
+  color: rgb(253, 253, 253);
+  padding: 1rem 2rem;
+  border: 5px rgb(255, 255, 255) dotted;
+}
+
+.allUsers h1 {
+  margin-bottom: 2rem;
+}
+
+.user {
+  margin: 2rem;
+}
+
+.allUsers btn {
+  margin-top: 2rem;
+}
