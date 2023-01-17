@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import './Home.css'
+import Footer from '../../components/Footer/Footer';
 
 const Home = () => {
 
@@ -47,10 +48,12 @@ const Home = () => {
             <p>{post.body}</p>
             <Link to={`/posts/${post.id}`} className="btn"> Read More ...</Link>
           </div>
+
         ))
       )}
     </div>
   )
 }
+
 
 export default Home;

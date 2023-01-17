@@ -14,7 +14,7 @@ const ViewPost = () => {
     try {
       const response = await blogFetch.get(`/posts/${id}`)
       const data = response.data;
-      //console.log(data)
+
 
       setOnePost(data)
 

@@ -1,12 +1,16 @@
 .allUsers {
+  max-width: 700px;
   text-align: center;
   color: rgb(253, 253, 253);
   padding: 1rem 2rem;
   border: 5px rgb(255, 255, 255) dotted;
+  text-align: center;
+
 }
 
 .allUsers h1 {
   margin-bottom: 2rem;
+  font-size: 3rem;
 }
 
 .user {

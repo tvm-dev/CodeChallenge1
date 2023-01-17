@@ -10,8 +10,10 @@ import NewPost from './routes/NewPost/NewPost';
 import ViewPost from './routes/ViewPost/ViewPost';
 import Users from './components/Users/listUsers';
 import UserDetails from './components/UserDetails/UserDetails';
+import About from './components/About/About';
 
 import './index.css'
+
 
 
 //Routing configuration object, for use at routes:
@@ -38,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/posts/:id",
         element: <ViewPost />,
+      },
+      {
+        path: "/about",
+        element: <About />,
       },
 
     ],

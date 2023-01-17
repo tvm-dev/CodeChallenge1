@@ -1,0 +1,15 @@
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+
+
+  border: 1px coral dotted;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer h2 {
+  color: coral;
+}

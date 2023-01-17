@@ -52,9 +52,10 @@ const NewPost = () => {
           ></textarea>
         </div>
         <input type="submit" value="Create Post" className='btn'></input>
-      </form>
+      </form><br /><br />
 
 
+      <p id='p'>After sending this Post, it is "saved" in the FAKE Api, this can be verified in the developer tab of Google Chrome with Status 200. And then the user is redirected to the main page of the application.</p><br /><br />
 
 
     </div>

@@ -12,7 +12,6 @@ const UserDetails = () => {
     try {
       const res = await blogFetch.get(`/users/${id}`)
       const data = res.data;
-      //console.log(data)
       setUserDetails(data)
 
     } catch (error) {
@@ -24,37 +23,27 @@ const UserDetails = () => {
     getUserDetails()
   }, [])
 
-  const names = ['thiago', 'eike', 'pi', 'diva', 'henry']
 
   return (
     <div className='userDetail'>
 
       <h1>User Details:</h1><hr />
-      Hi, my name is <span>{userDetails.name}</span>
+
+
+      <h2>{userDetails.name}</h2>
+
       <br /><br />
-      <h2>My Basic Data:</h2>
-      <ul>
-        <li><p>E-mail: <span>{userDetails.email}</span></p></li>
-        <li><p>Phone: <span>{userDetails.phone}</span></p></li>
-        <li><p>Username: <span>{userDetails.username}</span></p></li>
-        <li><p>My webiste: <span> {userDetails.website}</span></p></li><br />
-      </ul>
+      <h3>More Data:</h3>
 
-      <h2>My Address:</h2>
-
-
-
-
-
-
-      <p>{userDetails.address.street[0]}</p>
-
-
-
-
-
-
-
+      E-mail: <span><p>{userDetails.email}</p></span>
+      Phone: <span><p>{userDetails.phone}</p></span>
+      My Username: <span><p>{userDetails.username}</p></span>
+      My webiste: <span><p><a
+        href={userDetails.website}
+        target="_blank">
+        {userDetails.website}
+      </a>
+      </p></span>
 
     </div >
   );

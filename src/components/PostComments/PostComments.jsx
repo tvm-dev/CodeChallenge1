@@ -11,9 +11,9 @@ const PostComments = () => {
 
     try {
       const response = await blogFetch.get(`/posts/${id}/comments`)
-      //console.log(response)
+
       const data = response.data;
-      console.log(data)
+
 
       setComments(data)
 

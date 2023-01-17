@@ -1,12 +1,49 @@
 .userDetail {
+  text-align: center;
   color: rgb(255, 255, 255);
+  padding: 1rem;
+
 }
 
-.userDetail span {
-  color: yellowgreen;
-  font-size: larger;
+.userDetail span p {
+  color: coral;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.userDetail span p:hover {
+  color: coral;
+  font-style: italic;
+  font-size: 2rem;
+  background-color: rgb(10, 10, 10);
+  transition: 0.20s;
+  border-radius: 50px;
+  margin-top: 5px;
+}
+
+.userDetail span p a {
+  color: coral;
+  font-style: italic;
+  font-size: 2rem;
+
+
 }
 
 .userDetail ul li {
-  list-style-type: square;
+  text-align: center;
+
+
+}
+
+.userDetail h2 {
+  color: coral;
+  font-size: 3rem;
+}
+
+.userDetail h3 {
+  font-size: 2.5rem;
+}
+
+.userDetail span a href {
+  color: red;
 }
