@@ -36,7 +36,7 @@ const Home = () => {
 
   }, [])
 
-
+  // http://localhost:5173/CodeChallenge1/posts/1
 
   return (
     <div className="home"><h1> [ Latest Posts ]</h1>
@@ -46,7 +46,7 @@ const Home = () => {
           <div className="post" key={post.id}>
             <h2>{post.title}</h2>
             <p>{post.body}</p>
-            <Link to={`/posts/${post.id}`} className="btn"> Read More ...</Link>
+            <Link to={`/CodeChallenge1/posts/${post.id}`} className="btn"> Read More ...</Link>
           </div>
 
         ))

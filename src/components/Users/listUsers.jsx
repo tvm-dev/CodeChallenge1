@@ -32,7 +32,7 @@ const Users = () => {
           <div className="user" key={user.id}>
             <h2>{user.name}</h2>
             <p>{user.username} - {user.email}</p><br />
-            <Link to={`/users/${user.id}`} className="btn">More Details...</Link>
+            <Link to={`/CodeChallenge1/users/${user.id}`} className="btn">More Details...</Link>
           </div>
         ))
       )}
