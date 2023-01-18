@@ -8,13 +8,21 @@
 
 ---
 # Table of Contents ***
-- [About](#-About)
+- [About](#-about)
+- [Built With](#built-With)
+- [How to run this project](#-how-to-run-this-project)
+- [Contacts](#-contacts)
+- [License](#-license)
 
 
-
-
+---
 #  About 👋 🎁
 This Project was developed to fulfill a Code Challenge request for a job interview. **It consumes an open source API** called {JSON} Placeholder
+- Link this Project: [https://github.com/tvm-dev/CodeChallenge1](https://github.com/tvm-dev/CodeChallenge1)
+- ## See a Gif demo from project running: 🙂
+### Running
+
+<h1 align="center"><img src="public/images/gifs/SysMapCC.gif"></h1>
 
 ---
 ## Built With 💟
@@ -41,6 +49,18 @@ $ npm install
 
 # Start the project:
 $ npm run dev
+```
+---
+# Contacts 🖐️
+### This project was development by **Thiago Viana**
+- E-mail: tvm.dev2015@gmail.com
+- Website: [thiagoviana.tk](https://thiagoviana.tk)
+- WhatsApp: [+55 11 961312020](https://wa.me/5511961312020?text=Github)
+- Linkedin: [https://www.linkedin.com/in/tvm-dev2015/](https://www.linkedin.com/in/tvm-dev2015/)
 
+
+---
+# License
+Distributed under the MIT License. See LICENSE.txt for more information
 
 
