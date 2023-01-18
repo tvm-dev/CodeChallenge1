@@ -22,27 +22,27 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/CodeChallenge1",
         element: <Home />,
       },
       {
-        path: "/users",
+        path: "/CodeChallenge1/users",
         element: <Users />,
       },
       {
-        path: "/users/:id",
+        path: "/CodeChallenge1/users/:id",
         element: <UserDetails />,
       },
       {
-        path: "/new",
+        path: "/CodeChallenge1/new",
         element: <NewPost />,
       },
       {
-        path: "/posts/:id",
+        path: "/CodeChallenge1/posts/:id",
         element: <ViewPost />,
       },
       {
-        path: "/about",
+        path: "/CodeChallenge1/about",
         element: <About />,
       },
 
