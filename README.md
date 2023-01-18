@@ -4,7 +4,7 @@
 
 
 <h3 align="center">
-  <a href="https://github.com/tvm-dev/codechallenge1">See Online Demo this Project click here</a></h3>
+  <a href="https://tvm-dev.github.io/CodeChallenge1/">See Online Demo this Project click here</a></h3>
 
 ---
 # Table of Contents ***

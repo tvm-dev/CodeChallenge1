@@ -22,7 +22,7 @@ const NewPost = () => {
     });
 
 
-    navigate('/');
+    navigate('/CodeChallenge1');
 
   };
 
